@@ -1,14 +1,42 @@
+
+#secondnav {
+  background-color: #046791;
+  width: 1024px;
+}
+#navbarSupportedContent {
+  color: #fff;
+}
+#header {
+  position: relative;
+  /*display: block;*/
+  background-color: #fff;
+}
 #topnav {
   border: none;
   height: 62px;
-  margin: auto;
+  margin-right: 10px;
+  margin-top: 20px;
+  width: 200px;
   position: relative;
   border-radius: 4px;
-  min-height: 50px;
-  box-sizing: border-box;
-  display: block;
 }
-#secondnav {
-  background-color: #046791;
-  color: white;
+.pull-left {
+  float: left;
+  display: block;
+  position: fixed;
+  box-sizing: border-box;
+  color: black;
+}
+a.navbar-brand {
+  background: transparent;
+}
+.pull-right {
+  float: right;
+  display: block;
+  position: fixed;
+  box-sizing: border-box;
+  color: black;
+}
+.logo {
+  color: 1295e8
 }

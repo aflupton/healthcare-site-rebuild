@@ -1,0 +1,12 @@
+#hero{
+  background-image: url(https://www.healthcare.gov/images/hero/postoe-homepage-hero.jpg);
+  color: #fff;
+  width: 100%;
+}
+#primaryLinks {
+  background-color: #17415f;
+  color: #fff;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
