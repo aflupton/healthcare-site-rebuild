@@ -26,6 +26,6 @@ export class AppComponent {
     this.showForm = null;
   };
   finishedAdding(clickedSite) {
-
+    this.selectedSite = null;
   };
 }
