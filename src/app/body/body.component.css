@@ -1,8 +1,8 @@
 #hero{
   background-image: url(https://www.healthcare.gov/images/hero/postoe-homepage-hero.jpg);
   color: #fff;
-  width: 100%;
   text-align: center;
+  float: left;
 }
 #primaryLinks {
   background-color: #17415f;
@@ -29,4 +29,39 @@
   background-color: #063346;
   color: #fff;
   float: right;
+}
+a {
+  color: #fff;
+}
+.underline {
+  text-decoration: underline;
+}
+.contactLinks {
+  color: #666;
+}
+.facebook {
+  max-width: 36px;
+  max-height: 36px;
+  /*display: block;*/
+}
+.twitter {
+  max-width: 36px;
+  max-height: 36px;
+  /*display: block;*/
+}
+.youtube {
+  width: 36px;
+  height: 36px;
+  /*display: block;*/
+}
+.google {
+  width: 36px;
+  height: 36px;
+  /*display: block;*/
+}
+.social-media-icons a {
+  /*float: left;*/
+}
+ul {
+  list-style-type: none;
 }
