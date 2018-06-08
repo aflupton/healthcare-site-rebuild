@@ -10,11 +10,15 @@ _This app uses Angular to rebuild the healthcare.gov website. A user will be abl
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
 ## Known Bugs
-_The website is currently in development and not functional._
+_The website is currently under development._
 
 ## Setup
 
 Clone the repository from Github, navigate to the project directory in your terminal, and then run `ng serve` and navigate to `localhost:4200` in your browser to view the app.
+
+## Contact
+
+For any further questions, email Andrew Lupton at mailto:aflupton@gmail.com.
 
 ## Development server
 
@@ -40,6 +44,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## Contact
+### License
 
-For any further questions, email Andrew Lupton at mailto:aflupton@gmail.com.
+*Licensed through the MIT open resource agreement*
+
+Copyright (c) 2018 **_Andrew Lupton_**
