@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Site } from './models/site.model';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +7,25 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'HealthCare.gov';
-  subtitle = "2018 Open Enrollment is over. Still need health insurance?";
+  masterSite: Site[] = [
 
+  ];
+  selectedSite = null;
+  newSite: Site [] = null;
+  showForm = null;
+  editSite(clickedSite) {
+    this.selectedSite = clickedSite;
+  };
+  finishedEditing() {
+    this.selectedSite = null;
+  };
+  addSite(newSite: Site) {
+    this.showForm = newSite;
+    this.masterSite.push(newSite);
+    this.newSite = [];
+    this.showForm = null;
+  };
+  finishedAdding(clickedSite) {
+
+  };
 }
