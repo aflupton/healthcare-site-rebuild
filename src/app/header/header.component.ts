@@ -14,5 +14,5 @@ export class HeaderComponent implements OnInit {
   }
   title = 'HealthCare.gov';
   subtitle = "2018 Open Enrollment is over. Still need health insurance?";
-
+  
 }
