@@ -65,3 +65,16 @@ a {
 ul {
   list-style-type: none;
 }
+.resource-links a{
+  color: #666;
+}
+.languages-list a{
+  color: #666;
+  float: right;
+}
+.btn-bottom {
+  float: right;
+}
+.eagle {
+  background: image(./assets/img/google.png);
+}
