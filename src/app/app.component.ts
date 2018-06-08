@@ -8,7 +8,7 @@ import { Site } from './models/site.model';
 })
 export class AppComponent {
   masterSite: Site[] = [
-
+    new Site('Andrew', 'Lupton', 27)
   ];
   selectedSite = null;
   newSite: Site [] = null;

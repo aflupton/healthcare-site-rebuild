@@ -1,4 +1,4 @@
 export class Site {
   public done: boolean = false;
-  constructor(public description: string) {};
+  constructor(public firstName: string, public lastName: string, public age: number) {};
 }
