@@ -1,0 +1,17 @@
+{ "sites": [{
+    "lastName": "Lupton",
+    "firstName": "Andrew",
+    "age": 27,
+    "date": "6/21/2018"
+    }, {
+    "lastName": "Iniesta",
+    "firstName": "Andres",
+    "age": 34,
+    "date": "8/12/2018"
+    }, {
+    "lastName": "Ronaldo",
+    "firstName": "Cristiano",
+    "age": 33,
+    "date": "3/21/2018"
+  }]
+}
