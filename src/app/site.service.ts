@@ -5,8 +5,31 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 
 @Injectable()
 export class SiteService {
-  site: FirebaseListObservable<any>[];
+  sites: FirebaseListObservable<any[]>;
 
-  constructor() { }
+  constructor(private database: AngularFireDatabase) {
+ this.sites = database.list('sites');
+}
 
+getServices() {
+  return this.sites;
+}
+
+addService(newService: Site) {
+  this.sites.push(newService);
+}
+
+getSiteById(siteId: string){
+  return this.database.object('/sites/' + siteId);
+}
+
+updateSite(localUpdatedSite) {
+  var siteEntryInFirebase = this.getSiteById(localUpdatedSite.$key);
+  siteEntryInFirebase.update({firstName: localUpdatedSite.firstName, lastName: localUpdatedSite.lastName, age: localUpdatedSite.age});
+}
+
+deleteSite(localSiteToDelete) {
+  var siteEntryInFirebase = this.getSiteById(localSiteToDelete.$key);
+  siteEntryInFirebase.remove();
+}
 }
