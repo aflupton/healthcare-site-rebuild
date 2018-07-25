@@ -1,15 +1,21 @@
 # Healthcare.gov Rebuild
-#### _This application uses Angular to rebuild the US government's healthcare.gov website, 07/025/18_
+#### _Rebuilding Healthcare.gov with Angular, 07/025/18_
 
 #### By _**Andrew Lupton**_
 
 ## Description
 
-This app uses Angular to rebuild the healthcare.gov website. A user will be able utilize the website's basic functionality by making an api call to retrieve health insurance plan information, such as plan names, coverage details, costs, etc.
+This app uses Angular to rebuild the healthcare.gov website, which is the primary web portal by which Americans are able to search for health insurance as specified under the Affordable Care Act, otherwise known as "Obamacare". The project is intended as a showcase for skills working within an existing UX framework.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+The project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+
+## Intended Features
+
+A user will be able utilize the website's basic functionality by making an api call to retrieve health insurance plan information, such as plan names, coverage details, costs, etc
+
 
 ## Known Bugs
+
 _The website is currently under development._
 
 ## Setup
