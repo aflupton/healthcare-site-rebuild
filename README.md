@@ -1,11 +1,11 @@
 # Healthcare.gov Rebuild
-#### _This application uses Angular to rebuild the US government's healthcare.gov website, 06/08/18_
+#### _This application uses Angular to rebuild the US government's healthcare.gov website, 07/025/18_
 
 #### By _**Andrew Lupton**_
 
 ## Description
 
-_This app uses Angular to rebuild the healthcare.gov website. A user will be able utilize the website's basic functionality._
+This app uses Angular to rebuild the healthcare.gov website. A user will be able utilize the website's basic functionality by making an api call to retrieve health insurance plan information, such as plan names, coverage details, costs, etc.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
@@ -14,7 +14,7 @@ _The website is currently under development._
 
 ## Setup
 
-Clone the repository from Github, navigate to the project directory in your terminal, and then run `ng serve` and navigate to `localhost:4200` in your browser to view the app.
+Clone the repository from Github, navigate to the project directory in your terminal, run `ng build` and `ng start`, and then navigate to `localhost:4200` in your browser.
 
 ## Contact
 
@@ -43,6 +43,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+Send questions to mailto:aflupton@gmail.com
 
 ### License
 
