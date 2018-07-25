@@ -7,8 +7,6 @@ import { AppComponent } from './app.component';
 import { routing } from './app.routing';
 import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
-import { AboutComponent } from './about/about.component';
-import { AdminComponent } from './admin/admin.component';
 
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
@@ -26,8 +24,6 @@ export const firebaseConfig = {
     AppComponent,
     HeaderComponent,
     BodyComponent,
-    AdminComponent,
-    AboutComponent,
     PlanComponent
   ],
   imports: [

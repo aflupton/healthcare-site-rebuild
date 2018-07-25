@@ -5,7 +5,7 @@
 
 ## Description
 
-This app uses Angular to rebuild the healthcare.gov website, which is the primary web portal by which Americans are able to search for health insurance as specified under the Affordable Care Act, otherwise known as "Obamacare". The project is intended as a showcase for skills working within an existing UX framework.
+This app uses Angular to rebuild the healthcare.gov website, which is the primary web portal by which Americans are able to search for health insurance as specified under the Affordable Care Act, otherwise known as "Obamacare". The project is intended as a showcase for developing the necessary skills to recreate existing websites or adding dynamic components to existing static sites.
 
 The project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
